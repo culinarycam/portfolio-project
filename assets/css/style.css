@@ -1,0 +1,42 @@
+body {
+    background-color: lemonchiffon;
+}
+/*changed flex direction from row to column */
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    max-width: 1000px;
+    margin: auto;
+    background-color: floralwhite;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 { 
+   align-self: flex-start; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-items: center;
+}
+
+nav {
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.card {
+    a
+}
+
+.featured {
+
+}
+
+.images{
+    a
+}
+
+footer {
+    a
+}
