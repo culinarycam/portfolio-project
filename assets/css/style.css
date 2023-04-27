@@ -18,16 +18,28 @@ h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    align-items: center;
 }
-
+/* added avatar image*/
+.goose {
+    height: 150px;
+    width: 200px;
+    border-radius: 100px;
+    float: right;
+    
+}
+/* moved nav links to the left*/
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 nav a {
     display: flex;
     align-items: center;
     margin: 4px 8px 6px;
+}
+
+.about {
+    text-align: center;
 }
 
 .about p {
@@ -103,8 +115,16 @@ nav a {
 }
 
 .work-section-secondary img {
-    height: auto;
-    width: 50%;
+    display: inline;
+    float: left;
+    height: 250px;
+    width: 100%;
+}
+
+
+.work-section-secondary:hover {
+    transform: scale(1.05);
+    box-shadow: inset 0px 0px 10px rgba(rgb(218, 206, 161), rgb(199, 205, 139), rgb(0, 0, 0), 0.6)
 }
 
 
