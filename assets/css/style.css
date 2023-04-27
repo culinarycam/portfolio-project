@@ -47,6 +47,12 @@ nav a {
 
 }
 
+h2 {
+    align-self: flex-start; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
 
 .work-column {
     display: flex;
@@ -127,6 +133,11 @@ nav a {
     box-shadow: inset 0px 0px 10px rgba(rgb(218, 206, 161), rgb(199, 205, 139), rgb(0, 0, 0), 0.6)
 }
 
+h3 {
+    align-self: flex-start; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
 
 .contact {
     display: flex;
